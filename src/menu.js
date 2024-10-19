@@ -43,10 +43,6 @@ function renderMenu() {
     container.appendChild(mainWindow)
     container.appendChild(rightArrow);
 
-    const employee = document.createElement("img");
-    const tray = document.createElement("img");
-    const foodContainer = document.createElement("div");
-
     const foodImg = document.createElement("img");
     foodImg.className = "food"
     const name = document.createElement("p");
