@@ -4,6 +4,8 @@ import renderHome from "./home";
 import renderMenu from "./menu";
 import renderAbout from "./about";
 
+var link = document.querySelector("link[rel~='icon']")
+link.href = cluckinLogo;
 const content = document.querySelector("#content")
 const header = document.querySelector("header");
 const logo = document.createElement("img");
