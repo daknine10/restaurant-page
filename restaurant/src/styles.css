@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('./fonts/pricedown.otf');
+    font-style: normal;
+}
+
+body {
+    font-family: "Impact", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(252, 202, 37);
+    letter-spacing: 1px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+#content {
+    display: flex;
+    flex-basis: fit-content;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;;
+    padding: 24px;
+    min-height: 400px;
+    background-color: rgb(230, 171, 16);
+    box-shadow: -5px 5px 5px black;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h2:first-child {
+    font-family: 'Pricedown';
+    font-size: 32px;
+    padding: 6px;
+    border-bottom: 1px solid black;
+}
+
+.cluckin-logo {
+    height: 130px;
+    align-self: center;
+    filter: drop-shadow(-5px 5px 5px black);
+}
+
+header {
+    font-family: 'Pricedown';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header > h1 {
+    font-size: 36px;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    text-shadow: -5px 5px 5px rgb(179, 130, 6);;
+}
+
+button {
+    font-family: 'Pricedown';
+    font-size: 24px;
+    background: rgb(230, 171, 16);
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: -5px 5px 5px black;
+}
+
+button:hover{
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.deal {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.menuContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 100%;
+}
+
+.menuContainer > button {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+.food {
+    height: 180px;
+}
+
+.team {
+    height: 300px;
+    margin: 10px;
+}
+
+.about {
+    text-align: justify;
+}
