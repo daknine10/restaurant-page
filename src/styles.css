@@ -105,6 +105,7 @@ button:hover{
     height: 300px;
     width: min(70%, 250px);
     margin: 10px;
+    border: 1px solid black;
 }
 
 .about {
