@@ -27,7 +27,7 @@ body {
     min-height: 400px;
     background-color: rgb(230, 171, 16);
     box-shadow: -5px 5px 5px black;
-    width: 40%;
+    width: min(80%, 600px);
     justify-content: center;
     align-items: center;
 }
@@ -98,13 +98,20 @@ button:hover{
 
 .food {
     height: 180px;
+    width: max(40%, 200px);
 }
 
 .team {
     height: 300px;
+    width: min(70%, 250px);
     margin: 10px;
 }
 
 .about {
     text-align: justify;
+}
+
+img {
+    width: max(70%, 300px);
+    height: auto;
 }
